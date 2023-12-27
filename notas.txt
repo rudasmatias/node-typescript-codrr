@@ -1,0 +1,22 @@
+1ero-> pkg json -->npm init -y (arma por defecto)
+
+2do-> install dependencias necesarias
+
+    "class-validator": "^0.14.0", valida clases con decoradores .. si es un email, si es un date...
+    "cors": "^2.8.5", entrecruzamiento de datos no genere problemas con el front
+    "dotenv": "^16.3.1", manejo de variables de entorno
+    "express": "^4.18.2", framework para manejar rutas y levantar un servidor
+    "morgan": "^1.10.0", gestión visual de peticiones (es un estilo de logger)
+    "mysql": "^2.18.1",
+    "typeorm": "^0.3.17",
+    "typeorm-naming-strategies": "^4.1.0", cuando se crean las entidades, van a ser una clase y tendrá elementos, estos elementos se nombraran con camelcase 
+    (createdAt => created_at)
+    "typescript": "^5.3.3"
+
+
+3ro-> install dependencias de desarrollo
+
+4to--> Activar:
+    "experimentalDecorators": true
+    "emitDecoratorMetadata": true
+    "strictPropertyInitialization": true 
