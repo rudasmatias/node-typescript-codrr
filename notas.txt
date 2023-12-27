@@ -20,3 +20,10 @@
     "experimentalDecorators": true
     "emitDecoratorMetadata": true
     "strictPropertyInitialization": true 
+
+
+
+#CLASE 2
+
+Router es la carpeta donde se ubicaran las rutas de peticiones
+Tendré un archivo router, tipo bandera, que se extenderá de las demás rutas e interpretara configuraciones varias
